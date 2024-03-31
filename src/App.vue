@@ -1,6 +1,6 @@
 <template>
-  <el-header>
-        <img src="../../public/logo.png" alt="Logo" style="height: 80%;"/>
+  <el-header class="header-center">
+      <img src="../../public/logo.png" alt="Logo" style="height: 80%;"/>
   </el-header>
   <div class="divider"></div>
   <el-container style="height: 100vh;">
@@ -24,18 +24,11 @@ export default {
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #fefefe;
+.header-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.el-header {
-    background-color: #ffffff;
-    line-height: 50px;
-    padding: 0 20px;
-  }
 
 .divider {
     height: 1px;
