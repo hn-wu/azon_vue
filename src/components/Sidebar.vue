@@ -18,7 +18,6 @@ export default {
     name: 'Sidebar',
     methods: {
         goTo(route) {
-            console.log(route)
             this.$router.push({name:route});
         },
   },
