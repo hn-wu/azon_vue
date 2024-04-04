@@ -4,8 +4,8 @@
     <el-button type="primary" @click="toggleForm">新增ssh配置</el-button>
     <el-icon @click="refreshComponent"><RefreshRight /></el-icon>
     </div>
-    <SearchUserConfig></SearchUserConfig>
     <ConfigUserForm v-if="isFormVisible"></ConfigUserForm>
+    <SearchUserConfig></SearchUserConfig>
   </div>
 </template>
 

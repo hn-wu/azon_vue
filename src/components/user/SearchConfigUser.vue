@@ -1,10 +1,10 @@
 <template>
 <el-row :gutter="20">
-  <el-col :span="3.5">
-    <el-button type="primary" @click="searchConfig()" style="margin-bottom: 5px;">查询ssh配置</el-button>
-  </el-col>
   <el-col :span="6">
     <el-input v-model="ruleForm.hostname" type="text" placeholder="请输入hostname" style="width: 100%;" />
+  </el-col>
+  <el-col :span="3.5">
+    <el-button type="primary" @click="searchConfig()" style="margin-bottom: 5px;">查询ssh配置</el-button>
   </el-col>
 </el-row>
 <el-table :data="repdata" style="width: 100%" v-if="repdata">
