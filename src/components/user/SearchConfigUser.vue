@@ -1,7 +1,7 @@
 <template>
 <el-row :gutter="20">
   <el-col :span="3.5">
-    <el-button type="primary" @click="searchConfig()" style="margin-bottom: 10px;">查询ssh配置</el-button>
+    <el-button type="primary" @click="searchConfig()" style="margin-bottom: 5px;">查询ssh配置</el-button>
   </el-col>
   <el-col :span="6">
     <el-input v-model="ruleForm.hostname" type="text" placeholder="请输入hostname" style="width: 100%;" />
